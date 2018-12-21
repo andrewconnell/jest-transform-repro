@@ -1,0 +1,11 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "isCreatingSolution": true,
+    "environment": "spo",
+    "version": "1.7.1",
+    "libraryName": "jest-transform-repro",
+    "libraryId": "6838a002-3dfb-41ce-b68e-39be43a580a4",
+    "packageManager": "npm",
+    "componentType": "webpart"
+  }
+}

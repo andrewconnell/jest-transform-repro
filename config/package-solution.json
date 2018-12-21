@@ -1,0 +1,12 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "jest-transform-repro-client-side-solution",
+    "id": "6838a002-3dfb-41ce-b68e-39be43a580a4",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true
+  },
+  "paths": {
+    "zippedPackage": "solution/jest-transform-repro.sppkg"
+  }
+}

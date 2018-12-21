@@ -1,0 +1,35 @@
+{
+  "collectCoverage": true,
+  "coverageDirectory": "<rootDir>/../temp/test",
+  "coverageReporters": [
+    "json",
+    "lcov",
+    "text-summary"
+  ],
+  "moduleFileExtensions": [
+    "ts", 
+    "tsx", 
+    "js", 
+    "json"
+  ],
+  "moduleNameMapper": {
+    "\\.(css|scss)$": "identity-obj-proxy",
+    "^resx-strings/en-us.json": "<rootDir>/node_modules/@microsoft/sp-core-library/lib/resx-strings/en-us.json"
+  },
+  "rootDir": "../src",
+  "setupFiles": [
+    "raf/polyfill",
+    "<rootDir>/../config/jest.enzyme.js"
+  ],
+  "snapshotSerializers": [
+    "enzyme-to-json/serializer"
+  ],
+  "testMatch": [
+    "**/src/**/*.spec.+(ts|tsx|js)"
+  ],
+  "testURL": "http://localhost",
+  "transform": {
+    "^.+\\.(ts|tsx)$": "ts-jest"
+  },
+  "verbose": false
+}

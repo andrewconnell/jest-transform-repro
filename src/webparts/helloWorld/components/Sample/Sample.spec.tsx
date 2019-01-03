@@ -4,8 +4,15 @@ import 'jest';
 import { shallow } from 'enzyme';
 import toJson from 'enzyme-to-json';
 
-import { 
-  Sample, 
+jest.mock('@microsoft/sp-core-library/', () => {
+  return {
+    'Environment': {},
+    'EnvironmentType': {}
+  };
+});
+
+import {
+  Sample,
   ISampleProps
 } from './Sample';
 

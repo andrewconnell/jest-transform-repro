@@ -7,9 +7,9 @@
     "text-summary"
   ],
   "moduleFileExtensions": [
-    "ts", 
-    "tsx", 
-    "js", 
+    "ts",
+    "tsx",
+    "js",
     "json"
   ],
   "moduleNameMapper": {
@@ -31,5 +31,9 @@
   "transform": {
     "^.+\\.(ts|tsx)$": "ts-jest"
   },
-  "verbose": false
+  "verbose": false,
+  "testPathIgnorePatterns": [
+    "<rootDir>/(build|docs|node_modules)/",
+    "<rootDir>/node_modules/@microsoft/sp-core-library/"
+  ]
 }
